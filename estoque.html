@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Extra+Condensed:wght@800&display=swap');
+
+    h1 {
+        display: flex;
+        font-family: 'Sofia Sans Extra Condensed', sans-serif;
+        font-size: 3.2em;
+        align-items: center;
+        justify-content: center;
+    }
+    table {
+        display: flex;
+        font-family: 'Montserrat', sans-serif;
+        border-collapse: collapse;
+        align-items: center;
+        justify-content: center;
+
+    }
+    td:hover { opacity: 0.8}
+    td { 
+        cursor: pointer;
+        border: 2px solid black
+    }
+    #d {
+        background-color: rgb(195, 250, 250);
+    }
+    #b {
+        background-color: rgb(232, 255, 179);
+    }
+    #c {
+        background-color: rgb(255, 254, 181);
+    }
+    #br {
+        background-color: rgb(255, 254, 219);
+    }
+    </style>
+</head>
+<body>
+    <div id="tabela">
+    <h1> Estoque de Produtos </h1>
+    <table>  
+        <tr> 
+            <td> <strong>Produtos</strong> </td>
+            <td> <strong>Sabor</strong> </td>
+            <td> <strong>Quantidade </strong> </td>
+        </tr>
+        <!--Donuts-->
+        <tr id="d"> 
+            <td> Donuts </td>
+            <td> Chocolate </td>
+            <td> 23 </td>
+        </tr>
+        <tr id="d"> 
+            <td> Donuts </td>
+            <td> Morango </td>
+            <td> 20 </td>
+        </tr>
+        <tr id="d"> 
+            <td> Donuts </td>
+            <td> Nutella </td>
+            <td> 14 </td>
+        </tr>
+        <!--Cookies-->
+        <tr id="c"> 
+            <td> Cookies </td>
+            <td> Chocolate </td>
+            <td> 10 </td>
+        </tr>
+        <tr id="c"> 
+            <td> Cookies </td>
+            <td> Amêndoas </td>
+            <td> 9 </td>
+        </tr>
+        <tr id="c"> 
+            <td> Cookies </td>
+            <td> Nutella </td>
+            <td> 11 </td>
+        </tr>
+        <!--Bolo no Pote-->
+        <tr id="b"> 
+            <td> Bolo </td>
+            <td> Oreo </td>
+            <td> 7 </td>
+        </tr>
+        <tr id="b"> 
+            <td> Bolo </td>
+            <td> Choco+Morango </td>
+            <td> 9 </td>
+        </tr>
+        <tr id="b"> 
+            <td> Bolo </td>
+            <td> Mousse de Limão </td>
+            <td> 9 </td>
+        </tr>
+                <!--Brownie-->
+                <tr id="br"> 
+                    <td> Brownie </td>
+                    <td> Chocolate </td>
+                    <td> 15 </td>
+                </tr>
+                <tr id="br"> 
+                    <td> Brownie </td>
+                    <td> Castanhas </td>
+                    <td> 12 </td>
+                </tr>
+                <tr id="br"> 
+                    <td> Brownie </td>
+                    <td> Nutella </td>
+                    <td> 6 </td>
+                </tr>
+    </table>
+</div>
+</body>
+</html>
